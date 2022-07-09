@@ -64,8 +64,8 @@ public class OpCommand implements CommandExecutor {
                         player.sendMessage(option + "카테고리의 이름을 적어주세요.");
                         return false;
                     }
-                    if (!config.contains("도움말." + args[1])) {
-                        player.sendMessage(option + "존재하지 않는 카테고리입니다.");
+                    if (config.contains("도움말." + args[1])) {
+                        player.sendMessage(option + "이미 존재하는 카테고리입니다.");
                         return false;
                     }
                     if (args.length == 2) {
