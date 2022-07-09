@@ -1,0 +1,17 @@
+Header: "&7&l──────────── &b&l[§f§l 도움말&7&l %NowPage%/%MaxPage% &b&l] &7&l────────────"
+BeforePage: "&c[ ! ] &7- &f[ /도움말 페이지 %BeforePage% ] 을 입력해 이전 카테고리를 확인하세요."
+Message: " &6[ %Command% ]&f %Message%"
+NextPage: "&c[ ! ] &7- &f[ /도움말 페이지 %NextPage% ] 을 입력해 다음 카테고리를 확인하세요."
+Footer: "&7&l──────────── &b&l[§f§l 도움말&7&l %NowPage%/%MaxPage% &b&l] &7&l────────────"
+
+HeadHeader: "&7&l──────────── &b&l[§f§l %Category% : %Head% &b&l] &7&l────────────"
+HeadMessage: "&c [ ! ]&f %Message%"
+HeadFooter: "&7&l─────────────────────────────────────────────────────────────────"
+
+플레이스홀더:
+  최대페이지: "%MaxPage%"
+  현재페이지: "%NowPage%"
+  커맨드: "%Command%"
+  메시지: "%Message%"
+  카테고리: "%Category%"
+  머릿말: "%Head%"
