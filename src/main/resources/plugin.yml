@@ -1,0 +1,9 @@
+name: HelpInfo
+version: '${project.version}'
+main: com.cosine.helpinfo.main.HelpInfo
+authors: [ Cosine_A ]
+description: 도움말 플러그인
+
+commands:
+  도움말:
+  도움말관리:
