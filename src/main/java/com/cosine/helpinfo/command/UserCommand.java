@@ -50,8 +50,6 @@ public class UserCommand implements CommandExecutor {
 
     private final ExecutorService service = Executors.newCachedThreadPool();
 
-    private final String option = "§6§l[ 도움말 ] §f§l";
-
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
