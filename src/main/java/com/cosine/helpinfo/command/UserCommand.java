@@ -37,15 +37,15 @@ public class UserCommand implements CommandExecutor {
         config0 = plugin.config();
         config = config0.getConfig();
 
-        header = plugin.message().getConfig().getString("Header");
-        beforePage = plugin.message().getConfig().getString("BeforePage");
-        msg = plugin.message().getConfig().getString("Message");
-        nextPage = plugin.message().getConfig().getString("NextPage");
-        footer = plugin.message().getConfig().getString("Footer");
+        header = config.getString("Header");
+        beforePage = config.getString("BeforePage");
+        msg = config.getString("Message");
+        nextPage = config.getString("NextPage");
+        footer = config.getString("Footer");
 
-        headHeader = plugin.message().getConfig().getString("HeadHeader");
-        headMessage = plugin.message().getConfig().getString("HeadMessage");
-        headFooter = plugin.message().getConfig().getString("HeadFooter");
+        headHeader = config.getString("HeadHeader");
+        headMessage = config.getString("HeadMessage");
+        headFooter = config.getString("HeadFooter");
     }
 
     private final ExecutorService service = Executors.newCachedThreadPool();
